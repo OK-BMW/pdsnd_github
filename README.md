@@ -47,6 +47,9 @@ The Python script has been written using Anaconda/Spyder for Python. Further dev
 * [#0002]: Add graphs as output from Python script
 * [#0003]: Create a GUI (instead of command line interaction)
 
+#### How do I contribute?
+You would like to help me writing audits, fixing bugs, improving and adding measurements and making the script more useful! I would love it to get in contact with you on GitHub. Guidelines regarding contributing will follow.
+
 ### Files Used
 The follwoing files are traked by version control:
 * README.md
