@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 #%% About
-# Name:    bikeshare_ok.py (based on the template bikeshare_2.py by UDACITY)
-# Author:  Octavian Knoll (BMW Group/EP-413)
+# Name:    bikeshare.py (based on the template bikeshare_2.py by UDACITY)
+# Author:  Dr. Octavian Knoll (BMW Group/EP-413)
 # Python:  Anaconda/Spyder (Python 3.8)
+# GitHub:  https://github.com/OK-BMW/pdsnd_github.git 
 # Version: v1.1
 # History: v1.0: Initial version
 #          v1.1: Including function display_data(df)
