@@ -35,3 +35,4 @@ The follwoing files are traked by version control:
 #### Usefull Links
 * Preview of Markdown code: https://markdownlivepreview.com/
 * Generate a bashrc file: http://bashrcgenerator.com/
+* Git commits styleguide: https://udacity.github.io/git-styleguide/
