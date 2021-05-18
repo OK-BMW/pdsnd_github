@@ -5,11 +5,47 @@
 * Git repo (remote): 18.05.2021
 * Git repo (local): 18.05.2021
 
-### Project Title
-Replace the Project Title
+### Analysis of US Bikeshare Data
+The project provides an interactive Python script which allows a basic analysis of US Bikshare data.
 
 ### Description
-Describe what your project is about and what it does
+
+#### About Bikeshare Project
+Cyclehop - a private bike share company - offers a bike-sharing system ([bikeshare.com](https://www.bikeshare.com/)).
+Their bikes provides data from every ride (date, start time, end time, start location, end location, anonymized user information).
+Data obtained from various cities can be downloaded and analysed ([bikeshare.com/data](https://www.bikeshare.com/data/)).
+These data are analysed in this project.
+
+#### Interactive Python Script
+Python is used to analyse bikeshare data.
+Here, most common day, most common start and end station, trip duration and other key measurements are computed. 
+A list of the computed measurements is given below.
+The computations are done within a Pyhton script. In addition, the python script interacts with the user through the commnand line. The user can select the city of interest, the month of interest and day of week of interest.
+The Python script has been tested using data sets obtaiend from New York City, Washington and Chicago.
+The Python script has been written using Anaconda/Spyder for Python. Further developments will be also written using Anaconda/Spyder for Python. 
+
+#### Measurements:
+* Date and location:
+ * Most common month
+ * Most common day of week
+ * Most common start hour
+ * Most common start station
+ * Most common end station
+ * Most common trip
+* Travel time:
+ * Total travel time
+ * Mean travel time
+* User infromation:
+ * Counts of user types
+ * Counts of gender
+ * User birth information: Earliest birth
+ * User birth information: Most recent birth
+ * User birth information: Most common birth
+
+#### Backlog: 
+* [#0001]: Test Python script on data sets obtained from other cities then test data sets
+* [#0002]: Add graphs as output from Python script
+* [#0003]: Create a GUI (instead of command line interaction)
 
 ### Files Used
 The follwoing files are traked by version control:
@@ -35,4 +71,4 @@ The follwoing files are traked by version control:
 #### Usefull Links
 * Preview of Markdown code: https://markdownlivepreview.com/
 * Generate a bashrc file: http://bashrcgenerator.com/
-* Git commits styleguide: https://udacity.github.io/git-styleguide/
+* Git commit styleguide: https://udacity.github.io/git-styleguide/
