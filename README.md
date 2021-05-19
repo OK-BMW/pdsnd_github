@@ -46,7 +46,6 @@ The script has been written using Anaconda/Spyder for Python. Further developmen
 Follwoing python libraries are used:
 * time
 * pandas
-* numpy
 
 The script contains the following functions:
 * Function "Get Filters from User": get_filters()
@@ -54,7 +53,8 @@ The script contains the following functions:
 * Function "Display Data": display_data(df)
 * Function "Most Common": most_common(dfc, name)
 * Function "Time Statstics": time_stats(df)
-* Function "Travel Statstics": station_stats(df):
+* Function "Travel Statstics I": station_stats(df):
+* Function "Travel Statstics II": trip_duration_stats(df):
 * Function "User Statstics": user_stats(df):
 * Function "Main Program": main():
 
