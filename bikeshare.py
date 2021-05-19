@@ -268,7 +268,7 @@ def trip_duration_stats(df):
     print('Total trip duration:   %.2f' % df['Trip Duration'].sum())
 
     # display mean travel time
-    print('Average trip duration: %.2f' % np.mean(df['Trip Duration']))
+    print('Average trip duration: %.2f' % df['Trip Duration'].mean())
 
     print('\nTotal and average trip duration were computed. Woah, this only took %.3f seconds!' % (time.time() - start_time))
 
