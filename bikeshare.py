@@ -4,15 +4,16 @@
 # Author:  Dr. Octavian Knoll (BMW Group/EP-413)
 # Python:  Anaconda/Spyder (Python 3.8)
 # GitHub:  https://github.com/OK-BMW/pdsnd_github.git 
-# Version: v1.1
+# Version: v1.2
 # History: v1.0: Initial version
 #          v1.1: Including function display_data(df)
-
+#          v1.2: Modify function trip_duration_stats(df)
+#                Computations using pd functions
+#                Libary np removed
 #%% Import
 
 import time
 import pandas as pd
-import numpy as np
 
 #%% Available Cities
 
@@ -266,10 +267,10 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    print('Total trip duration:   %.2f' % np.sum(df['Trip Duration']))
+    print('Total trip duration:   %.2f' % df['Trip Duration'].sum())
 
     # display mean travel time
-    print('Average trip duration: %.2f' % np.mean(df['Trip Duration']))
+    print('Average trip duration: %.2f' % df['Trip Duration'].mean())
 
     print('\nTotal and average trip duration were computed. Woah, this only took %.3f seconds!' % (time.time() - start_time))
 
