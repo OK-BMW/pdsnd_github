@@ -48,6 +48,16 @@ Follwoing python libraries are used:
 * pandas
 * numpy
 
+The script contains the following functions:
+* Function "Get Filters from User": get_filters()
+* Function "Load Data": load_data(city, month, day)
+* Function "Display Data": display_data(df)
+* Function "Most Common": most_common(dfc, name)
+* Function "Time Statstics": time_stats(df)
+* Function "Travel Statstics": station_stats(df):
+* Function "User Statstics": user_stats(df):
+* Function "Main Program": main():
+
 #### Backlog: 
 * [#0001]: Test Python script on data sets obtained from other cities then test data sets
 * [#0002]: Add graphs as output from Python script
