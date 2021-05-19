@@ -20,9 +20,9 @@ These data are analysed in this project.
 Python is used to analyse bikeshare data.
 Here, most common day, most common start and end station, trip duration and other key measurements are computed. 
 A list of the computed measurements is given below.
-The computations are done within a Pyhton script. In addition, the python script interacts with the user through the commnand line. The user can select the city of interest, the month of interest and day of week of interest.
-The Python script has been tested using data sets obtaiend from New York City, Washington and Chicago.
-The Python script has been written using Anaconda/Spyder for Python. Further developments will be also written using Anaconda/Spyder for Python. 
+The computations are done within a script. In addition, the script interacts with the user through the commnand line. The user can select the city of interest, the month of interest and day of week of interest.
+The script has been tested using data sets obtaiend from New York City, Washington and Chicago.
+The script has been written using Anaconda/Spyder for Python. Further developments should be done using Anaconda/Spyder for Python. 
 
 #### Measurements:
 * Date and location:
@@ -41,6 +41,12 @@ The Python script has been written using Anaconda/Spyder for Python. Further dev
  * User birth information: Earliest birth
  * User birth information: Most recent birth
  * User birth information: Most common birth
+
+#### About Python Script
+Follwoing python libraries are used:
+* time
+* pandas
+* numpy
 
 #### Backlog: 
 * [#0001]: Test Python script on data sets obtained from other cities then test data sets
