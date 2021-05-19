@@ -64,7 +64,17 @@ The script contains the following functions:
 * [#0003]: Create a GUI (instead of command line interaction)
 
 #### How do I contribute?
-You would like to help me writing audits, fixing bugs, improving and adding measurements and making the script more useful! I would love it to get in contact with you on GitHub. Guidelines regarding contributing will follow.
+You would like to help me writing audits, fixing bugs, improving and adding measurements and making the script more useful! I would love it to get in contact with you on GitHub.
+Here is the guidline:
+
+1. Fork my GitHub repository https://github.com/OK-BMW/pdsnd_github.git
+1. Clone your (forked) repository to your computer
+1. Create a branch with the name improvement-"function name" (i.e. improvement-get_filters) or the name new-function-"function_name" (i.e. new-function-make_boxplots)
+1. Switch to the branch and maker your improvements or create a new function (Here, I strongly recommend that you use Anaconda/Spyder)
+1. Test carefully your improvement or new function without violating the entire script sequence
+1. Send me a pull request
+
+Further details regarding contributing will follow.
 
 ### Files Used
 The follwoing files are traked by version control:
