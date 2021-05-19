@@ -3,15 +3,16 @@
 # Name:    bikeshare_ok.py (based on the template bikeshare_2.py by UDACITY)
 # Author:  Octavian Knoll (BMW Group/EP-413)
 # Python:  Anaconda/Spyder (Python 3.8)
-# Version: v1.1
+# Version: v1.2
 # History: v1.0: Initial version
 #          v1.1: Including function display_data(df)
-
+#          v1.2: Modify function trip_duration_stats(df)
+#                Computations using pd functions
+#                Libary np removed
 #%% Import
 
 import time
 import pandas as pd
-import numpy as np
 
 #%% Available Cities
 
